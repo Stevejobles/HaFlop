@@ -1,0 +1,14 @@
+{
+  "name": "pokerserver",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongodb": "^6.12.0"
+  },
+  "author": "sigma",
+  "license": "ISC"
+}
