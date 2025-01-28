@@ -4,7 +4,7 @@ body {
     background: #1A6F40;
     color: white;
   }
-  
+
   .header .title {
     font-size: 20px;
   }
@@ -20,5 +20,9 @@ body {
     padding: 12px 25px;
     background: rgb(255 255 255 / 20%);
     border-radius: 10px;
+
+    &.big {
+      color: black;
+      width: 10px;
+    }
   }
-  

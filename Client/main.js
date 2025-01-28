@@ -6,6 +6,9 @@ const signupButton = headerButtons.querySelector('.button.signup');
 
 function onCreateLobbyButtonClick() {
   console.log('test');
+
+  loginButton.classList.add('big');
+
 }
 
 createLobbyButton.addEventListener('click', onCreateLobbyButtonClick);

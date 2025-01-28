@@ -3,7 +3,12 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
+
+  //const obj = JSON.parse(req.body)
+
+  //obj.username // 'yahav'
+
   res.send('Bolbolf!')
 })
 
