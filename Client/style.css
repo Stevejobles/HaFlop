@@ -3,6 +3,7 @@ body {
     font-family: system-ui;
     background: #1A6F40;
     color: white;
+    user-select: none;
   }
 
   .header .title {
@@ -24,5 +25,13 @@ body {
     &.big {
       color: black;
       width: 10px;
+    }
+
+    &:hover {
+      background: rgb(255 255 255 / 30%);
+    }
+
+    &:active {
+      background: rgb(255 255 255 / 40%);
     }
   }
