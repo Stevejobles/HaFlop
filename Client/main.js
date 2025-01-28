@@ -9,3 +9,20 @@ function onCreateLobbyButtonClick() {
 }
 
 createLobbyButton.addEventListener('click', onCreateLobbyButtonClick);
+
+/*
+
+async function a() {
+
+  const data = { username: "example" }
+
+  const response = await fetch("https://example.org/post", {
+    method: "POST",
+    body: JSON.stringify(data)
+  })
+
+  console.log("logged in!")
+
+}
+
+*/
