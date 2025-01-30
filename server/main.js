@@ -11,7 +11,7 @@ app.get('/', async (req, res) => {
 
   res.send('Bolbolf!')
 })
-app.get('fuckzivziv', async (req, res) => {
+app.get('/fuckzivziv', async (req, res) => {
   res.send('fuck the sigma. i hate kndrick')
 })
 
