@@ -174,8 +174,6 @@ async function run() {
 run().catch(console.dir);
 
 
-
-
 class DatabaseManager {
 
     connect() {

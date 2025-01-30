@@ -8,7 +8,7 @@ function onCreateLobbyButtonClick() {
   console.log('test');
 
   loginButton.classList.add('big');
-
+// champions league 1234578910
 }
 
 createLobbyButton.addEventListener('click', onCreateLobbyButtonClick);
