@@ -13,6 +13,12 @@ function onCreateLobbyButtonClick() {
 createLobbyButton.addEventListener('click', onCreateLobbyButtonClick);
 
 /*
+var hand1 = Hand.solve(['4d', '5s', '6c', '7h', '8d', '6d', '8h']);
+var hand2 = Hand.solve(['4d', '5s', '6c', '7h', '8d', '7s', '8s']);
+var winner = Hand.winners([hand1, hand2]); // hand2
+*/
+
+/*
 
 async function a() {
 
