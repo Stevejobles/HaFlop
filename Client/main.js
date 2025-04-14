@@ -3,12 +3,17 @@ const headerButtons = document.querySelector('.header .buttons');
 const createLobbyButton = headerButtons.querySelector('.button.create-lobby');
 const loginButton = headerButtons.querySelector('.button.login');
 const signupButton = headerButtons.querySelector('.button.signup');
+const learnButton = headerButtons.querySelector('.button.learn-play')
 
 function onCreateLobbyButtonClick() {
   console.log('test');
 
   loginButton.classList.add('big');
 }
+
+learnButton.addEventListener('click', function() {
+  window.location.href = 
+})
 
 createLobbyButton.addEventListener('click', onCreateLobbyButtonClick);
 

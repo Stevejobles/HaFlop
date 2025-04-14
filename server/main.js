@@ -15,6 +15,8 @@ app.get('/fuckzivziv', async (req, res) => {
   res.send('fuck the sigma. i hate kndrick')
 })
 
+app.get('/learn2play')
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
