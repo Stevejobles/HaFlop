@@ -1,4 +1,3 @@
-
 const express = require('express')
 const app = express()
 const port = 3000
@@ -12,10 +11,12 @@ app.get('/', async (req, res) => {
   res.send('Bolbolf!')
 })
 app.get('/fuckzivziv', async (req, res) => {
-  res.send('fuck the sigma. i hate kndrick')
+  res.send('fuck the sigma. i hate kendrick')
 })
 
-app.get('/learn2play')
+app.get('/learn2play', async (req, res) => {
+  res.send('/learn2play')
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
