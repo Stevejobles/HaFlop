@@ -3,7 +3,7 @@
 const { MongoClient } = require("mongodb");
 
 async function run() {
-  const uri = "mongodb+srv://yahavy2007:WFGMLeoRy7wnudZ0@cluster0.yphe4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  const uri = "mongodb+srv://yahavy2007:<db_password>@cluster0.yphe4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
   // The MongoClient is the object that references the connection to our
   // datastore (Atlas, for example)
